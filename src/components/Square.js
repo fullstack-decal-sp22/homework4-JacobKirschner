@@ -4,7 +4,7 @@ import './styles/Square.css';
 function Square() {
     return (
         <button className="square">
-            {/* TODO */}
+            {this.props.value}
         </button>
     )
 }
